@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>  
+    <a href="https://www.w3schools.com/html/default.asp" target="_self">Default</a>
+    <a href="https://www.w3schools.com/html/default.asp" target="_blank">new w/t</a>
+    <a href="https://www.w3schools.com/html/default.asp" target="_parent">parent frame</a>
+    <a href="https://www.w3schools.com/html/default.asp" target="_top">new window</a>
+
+    <a href="https://www.w3schools.com/html/default.asp">
+        <img src="/HTML_Tutorial/2018-08-20.jpg" alt="good" width="240" height="200"> </a>
+
+    <a href="mailto:mr.karthikeyan2000@gmail.com">karthimail</a>
+    <a href="tel:+918925039151" title="hello">8925039151</a>
+
+</body>
+</html>
+
+
+
+<!--
+    HTML HYPERLINKS:
+        - HTML Links are HyperLink.
+        - I can click on link and jump to another document.
+        - When i move the mouse over link, the mouse arrow will turn into little hand.
+        - Links does not have to be text. Link can be image or any other element.
+        - <a> tag represent hyperlink. href attribute which indicate the link destination
+            <a hreg="url"> Link text </a>
+        - Link color will appear following all browser:
+            * Unvisited link underline blue
+            * Visited link underline purple
+            * Active link underline red.
+
+            DOUBT - Tip: Links can of course be styled with CSS, to get another look!
+        - HTML Links Target Attribute:
+            target attribute specifies where to open the linked document.
+            Target attribute can have the values:
+                * _self -  Default. Open document same window/tab.
+                * _black - Open document new window/tab.
+                * _parent - Open document in the parent frame.
+                * _top - Open the document in the full body window.
+            ex: <a href="url" target="_self">target attribute</a>
+    
+    Absolute URL and Relative URL:
+             There are two way to speicify the URL in the src attribute:
+            *Absolute URL
+            *Relative URL
+
+            Absolute URL:
+                -  Links to external image that is hosted on another website.
+                -  Example : src="https://www.w3schools.com/images/img_girl.jpg"
+
+                External image might be under copyright. If you do not get permission to use it.
+            
+            Relative URL:
+                -  Links to image that is hosted within the image. Here, URL not include domain name. | src="img_girl.jpg"
+                -  URL begins without slash, It will be relative to the Current page. | src="/images/img_girl.jpg"
+                -  URL begins with slash relative to the domain.
+
+                Finally, It's always best to use Relative URL. Reason, even domain change thats work.
+
+        Create Image with link:
+            <a href="url"><img src="img path" alt="image alter" ></a>
+
+        Create Email to link:
+            Add href attribute mailto:mailid
+            <a href="mailto:mr.karthikeyan2000@gmail.com">Send mail</a>
+
+            tel:+
+
+        Create button with redirect the link:
+        < button onclick="document.location='path'">HTML Tutorial</button>
+            
+        Title Attribute:
+            Title attribute more information provide element. When mouse over the area its turn into
+            tooltip.
+
+-->
